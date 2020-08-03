@@ -46,7 +46,7 @@ The touchbar is fairly pointless, but looks cool I guess.
 
 - Open Terminal
 - Install homebrew with `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`
-- Use homebrew to install the usual suspects
+- Use homebrew to install the usual suspects (in general, `cask` is used to install anything with a UI, otherwise a normal bres install is used)
     - `brew install git` for git
     - `brew install node` for node js / npm
     - `brew install nvm` for node version manager
@@ -58,9 +58,16 @@ The touchbar is fairly pointless, but looks cool I guess.
 - Install Oh My Zsh with `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
 - Make the terminal pretty with themes (TODO)
 
+Other useful things:
+- install xcode from the app store, if you want to be able to use Simulator to run emulated mobile ios devices
+- install spectacle for a nice way and easy to manage windows (although note this is no longer maintained, but still works fine)
+    - shorcuts with spectacle: `option + cmd + f` to maximise the window without making it go fullscreen, `option + cmd + left arrow` for moving a window to the left half of your desktop, likewise `option + cmd + right arrow` for moving a window to the right half of your desktop. You can see all the available shortcuts by clicking the spectacle icon in the top corner of your screen when it is running.
+
 ## Setting up Git (WIP)
 
 - generate a new ssh key
 - add it to your github account
 - add the new work email to your github as a secondary email address
 - set your git config on your machine with `git config --global user.name <username>` and `git config --global user.email <email>`, and set differently per work repo using `git config user.email <work-email>` while in the repo, if you'd like.
+
+## Notes on your bash profile / zsh profile (TODO)
