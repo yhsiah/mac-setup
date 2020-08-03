@@ -60,8 +60,11 @@ The touchbar is fairly pointless, but looks cool I guess.
 
 Other useful things:
 - install xcode from the app store, if you want to be able to use Simulator to run emulated mobile ios devices
-- install spectacle for a nice way and easy to manage windows (although note this is no longer maintained, but still works fine)
-    - shorcuts with spectacle: `option + cmd + f` to maximise the window without making it go fullscreen, `option + cmd + left arrow` for moving a window to the left half of your desktop, likewise `option + cmd + right arrow` for moving a window to the right half of your desktop. You can see all the available shortcuts by clicking the spectacle icon in the top corner of your screen when it is running.
+- install spectacle for a nice way and easy to manage windows (although note this is no longer maintained, but still works fine). You can install this with `brew cask install spectacle`. Shortcuts with spectacle:
+    - `option + cmd + f` to maximise the window without making it go fullscreen.
+    - `option + cmd + left arrow` for moving a window to the left half of your desktop.
+    - `option + cmd + right arrow` for moving a window to the right half of your desktop.
+    - You can see all the available shortcuts by clicking the spectacle icon in the top corner of your screen when it is running.
 
 ## Setting up Git (WIP)
 
