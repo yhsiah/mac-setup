@@ -46,7 +46,7 @@ The touchbar is fairly pointless, but looks cool I guess.
 
 - Open Terminal
 - Install homebrew with `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`
-- Use homebrew to install the usual suspects (in general, `cask` is used to install anything with a UI, otherwise a normal bres install is used)
+- Use homebrew to install the usual suspects (in general, `brew cask install` is used to install anything with a UI, otherwise a normal `brew install` is used)
     - `brew install git` for git
     - `brew install node` for node js / npm
     - `brew install nvm` for node version manager
